@@ -4,7 +4,7 @@ import pytest
 
 
 #pytest_addoption(parser) - это метод, который позволяет запускать тест, который зависит от опции командной строки.
-#parser - этот атрибут, который считывает значения из строки.
+#parser - этот атрибут считывает значения из строки.
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default="chrome", help="Choose browser: chrome or firefox")
