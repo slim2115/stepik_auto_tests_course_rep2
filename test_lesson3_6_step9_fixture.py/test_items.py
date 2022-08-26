@@ -1,4 +1,4 @@
-import time # Добавлен для удобства рецензентов - нужно раскомментировать.
+import time
 from selenium.webdriver.common.by import By
 
 # В тесте проверяется наличие кнопки добавления в корзину
