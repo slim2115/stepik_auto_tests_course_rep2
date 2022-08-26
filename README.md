@@ -2,7 +2,7 @@
 0. В этом репозитории хранится файлы conftest.py и test_items.py в папке - test_lesson3_6_step9_fixture.py 
 для рецензирования в рамка степа - https://stepik.org/lesson/237240/step/9?unit=209628; 
 1. Тестирование кода в файлах conftest.py и test_items.py проводилось в PyCharm Community Edition 2022.1.3, Python Interpreter: Python 3.10
-2. Добавлены используемые в коде файлов conftest.py и test_items.py вэбдрайверы - chromedriver.exe и geckodriver.exe в папке webdrivers;
+2. Добавлены используемые в коде файлов conftest.py и test_items.py - chromedriver.exe и geckodriver.exe в папке webdrivers;
 3. Добавлен файл с перечнем пакетов библиотек requirements.txt на случай возможных конфликтов в исполняем коде файлов;
 4. В файле test_items.py добавлены закомментированные import time и команда time.sleep(30) исключительно для  удобства рецензентов;
 5. Селектор применяем для поиска кнопки - "Добавить в корзину" в файле test_items.py уникален только для проверяемой страницы с точки зрения критерия приемки такой селектор является валидным;
