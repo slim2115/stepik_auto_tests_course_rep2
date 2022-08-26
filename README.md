@@ -1,0 +1,2 @@
+# stepik_auto_tests_course_rep2
+review test_lesson3_6_step9_fixture.py
