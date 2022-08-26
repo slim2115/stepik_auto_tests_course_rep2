@@ -9,7 +9,3 @@ def test_guest_should_see_button_add_in_basket_on_the_product_page(browser):
     #time.sleep(30)  #Команда добавлена для удобства рецензентов - нужно раскомментировать.
     found_button_add_in_basket = browser.find_elements(By.XPATH, '//*[@class="btn btn-lg btn-primary btn-add-to-basket"]')
     assert found_button_add_in_basket, "button add in basket not found!"
-
-
-
-
